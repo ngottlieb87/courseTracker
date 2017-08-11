@@ -20,6 +20,6 @@ $(document).ready(function(){
          course = "Your best fit is 'PHP/Drupal'!";
      }
 
-    $("#output").text(course).show();
+    $("#output").text(course).fadeIn(850);
   });
 });
