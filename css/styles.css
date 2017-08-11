@@ -20,8 +20,16 @@
   margin-top: 40px;
   margin-left: 18%;
   margin-right: 18%;
-
-
+}
+label{
+  font-family:'Raleway', sans-serif;
+  font-size: 25px;
+  float: right;
+  padding-right: 30px;
+  text-decoration: underline;
+}
+input{
+  font-family:'Raleway', sans-serif;
 }
 button{
   margin: 20px 10px 20px 10px;
