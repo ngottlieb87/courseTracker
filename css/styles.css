@@ -40,10 +40,12 @@ button  {
   width: 30%;
   font-family: 'Raleway', sans-serif;
 }
+
 body {
     background-image: url("https://pbs.twimg.com/profile_images/790326050081439744/cB7axPVa.jpg");
     repeat: none;
 }
+
 select {
   width: 50%;
   font-family: 'Raleway', sans-serif;
