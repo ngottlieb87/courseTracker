@@ -23,3 +23,11 @@ $(document).ready(function(){
     $("#output").text(course).fadeIn(850);
   });
 });
+
+  #(document).ready(function(){
+    $("userName").submit(function(){
+      var firstName = $("input#firstName").val();
+      var lastName = $("input#lastName").val();
+      var fullName= firstName + " " + lastName;
+    }
+  })
