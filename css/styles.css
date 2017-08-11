@@ -7,34 +7,39 @@
   margin-right: 25%;
   margin-left: 25%;
 }
-.well{
+
+.well {
   margin-top: 20px;
   margin-bottom: 10px;
   padding: 15px;
   background-color:lightblue;
   text-align: center;
 }
-.jumbotron{
+
+.jumbotron  {
   background-color: lightblue;
   padding: 20px;
   margin-top: 40px;
   margin-left: 18%;
   margin-right: 18%;
 }
-label{
+
+label {
   font-family:'Raleway', sans-serif;
   font-size: 25px;
   float: right;
   padding-right: 30px;
   text-decoration: underline;
 }
-input{
+
+input {
   font-family:'Raleway', sans-serif;
 }
-button{
+
+button  {
   margin: 20px 10px 20px 10px;
   width: 30%;
-
+  font-family: 'Raleway', sans-serif;
 }
 body {
   background-color: #d6ffe0;
@@ -43,10 +48,15 @@ select {
   width: 50%;
   font-family: 'Raleway', sans-serif;
 }
-h1{
+
+h1  {
   text-align: center;
   font-size: 50px;
   font-family: 'Raleway', sans-serif;
   color: black;
   text-decoration-line: underline;
+}
+
+h2  {
+  font-family: 'Raleway', sans-serif;
 }
