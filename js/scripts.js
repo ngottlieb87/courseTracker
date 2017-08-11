@@ -9,25 +9,21 @@ $(document).ready(function(){
     var choice5 = parseInt($("#challenges").val());
 
     if((choice1 === 1 && choice2 === 1 && choice3 === 1 && choice4 === 2 && choice5 === 3)|| (choice2 === 1)){
-       course = "Your best fit is 'Ruby and Rails'! Go for it!";
+       course = " your best fit is 'Ruby and Rails'! Go for it!";
      } else if((choice1 === 2 && choice2 === 5 && choice3 === 2 && choice4 === 1 && choice5 === 1) || (choice2 === 5)) {
-       course = "Your best fit looks like it would be 'CSS/Design'!";
+       course = " your best fit looks like it would be 'CSS/Design'!";
      } else if((choice1 === 3 && choice2 === 2 && choice3 === 2 && choice4 === 3 && choice5 === 4) || (choice2 === 2)){
-         course = "Your best fit is 'C#/.Net'.If you are familiar with 'C#/.Net' maybe look into java as its also an object oriented programming language as well as Ruby.";
+         course = " your best fit is 'C#/.Net'.If you are familiar with 'C#/.Net' maybe look into java as its also an object oriented programming language as well as Ruby.";
      } else if((choice1 === 1 && choice2 === 4 && choice3 === 1 && choice4 === 2 && choice5 === 2)|| (choice2 === 4)){
-         course = "Your best fit is 'Java/Android'!";
+         course = " your best fit is 'Java/Android'!";
      } else if((choice1 === 1 && choice2 === 3 && choice3 === 1 && choice4 === 2 && choice5 === 3) || (choice2 === 3)){
-         course = "Your best fit is 'PHP/Drupal'!";
+         course = " your best fit is 'PHP/Drupal'!";
      }
 
-    $("#output").text(course).fadeIn(850);
+       var firstName = $("input#firstName").val();
+       var lastName = $("input#lastName").val();
+       var result= "Well, " + firstName + " " + lastName + course;
+       $("#output").text(result).fadeIn(850);
+
   });
 });
-
-  #(document).ready(function(){
-    $("userName").submit(function(){
-      var firstName = $("input#firstName").val();
-      var lastName = $("input#lastName").val();
-      var fullName= firstName + " " + lastName;
-    }
-  })
