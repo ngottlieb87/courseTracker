@@ -10,9 +10,10 @@
 
 ## Setup
 
-* Clone repository
-* Open Cloned repository with text editor (eg. atom, notepad, .etc)
-* Make changes, add, commit, remote, and push to repo designated
+* Clone repository to desired location
+* `cd courseTracker`
+* `open index.html`
+* Take survey
 
 ## Technologies Used
 
